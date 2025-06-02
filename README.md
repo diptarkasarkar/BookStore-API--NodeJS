@@ -23,14 +23,10 @@ A simple RESTful API for managing bookstore data, built with Node.js, Express.js
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-
 * [Node.js](https://nodejs.org/en/download/) (LTS version recommended)
-* [MongoDB](https://docs.mongodb.com/manual/installation/) (Community Edition recommended)
+* [MongoDB](https://account.mongodb.com/account/login) (Free MongoDB cloud account)
 
 ### Installation
 
@@ -39,7 +35,7 @@ Before you begin, ensure you have the following installed:
 2.  **Install dependencies:**
     ```bash
     npm install
-    npm install express nodemon
+    npm install express nodemon mongoose
     ```
 
 ### Running the API
